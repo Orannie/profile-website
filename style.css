@@ -32,12 +32,16 @@ body.dark-mode .tool-card {
     border: 1px solid #404040;
 }
 
+body.dark-mode .tool-card * {
+    color: #ffffff !important;
+}
+
 body.dark-mode .tool-card h3 {
     color: #ffffff;
 }
 
 body.dark-mode .tool-card p {
-    color: var(--white);
+    color: #ffffff;
 }
 
 body.dark-mode .contact-section,
