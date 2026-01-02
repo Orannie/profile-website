@@ -31,6 +31,15 @@ body.dark-mode .nav-icon:hover {
 
 body.dark-mode .tool-card {
     background-color: #2a2a2a;
+    border: 1px solid #404040;
+}
+
+body.dark-mode .tool-card h3 {
+    color: #ffffff;
+}
+
+body.dark-mode .tool-card p {
+    color: #b0b0b0;
 }
 
 body.dark-mode .contact-section,
