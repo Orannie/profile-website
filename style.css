@@ -270,6 +270,10 @@ body {
     flex: 0 1 220px;
 }
 
+.tool-card * {
+    color: var(--white);
+}
+
 .tool-icon {
     width: 48px;
     height: 48px;
