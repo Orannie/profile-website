@@ -49,6 +49,14 @@ body.dark-mode .footer {
     background-color: #0a0a0a;
 }
 
+body.dark-mode .contact-section * {
+    color: #ffffff !important;
+}
+
+body.dark-mode .contact-link {
+    color: #ffffff !important;
+}
+
 html {
     scroll-behavior: smooth;
 }
