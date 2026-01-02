@@ -37,7 +37,7 @@ body.dark-mode .tool-card h3 {
 }
 
 body.dark-mode .tool-card p {
-    color: #b0b0b0;
+    color: var(--white);
 }
 
 body.dark-mode .contact-section,
@@ -193,7 +193,7 @@ body {
 .hero-subtitle {
     font-size: clamp(1rem, 2vw, 1.5rem);
     font-weight: 300;
-    color: var(--gray);
+    color: var(--black);
     margin-top: 1.2rem;
 }
 
@@ -227,7 +227,7 @@ body {
 .about-text p {
     font-size: clamp(0.95rem, 1.8vw, 1.1rem);
     line-height: 1.7;
-    color: var(--gray);
+    color: var(--black);
     font-weight: 300;
 }
 
@@ -297,7 +297,7 @@ body {
 .tool-card p {
     font-size: 0.85rem;
     line-height: 1.5;
-    color: #aaa;
+    color: var(--white);
     font-weight: 300;
 }
 
@@ -334,13 +334,13 @@ body {
 
 .project-info-full p {
     font-size: clamp(0.85rem, 1.3vw, 1rem);
-    color: var(--gray);
+    color: var(--black);
     font-weight: 300;
 }
 
 /* Project links styling */
 .project-info-full a {
-    color: var(--gray);
+    color: var(--black);
     text-decoration: none;
     font-weight: 400;
     transition: color 0.3s ease;
@@ -397,7 +397,7 @@ body {
 .footer {
     padding: 0;
     background-color: var(--black);
-    color: var(--gray);
+    color: var(--black);
     text-align: center;
 }
 
