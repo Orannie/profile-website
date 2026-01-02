@@ -383,6 +383,14 @@ body {
         height: 40px;
     }
 
+    .nav-icon::after {
+        display: none;
+    }
+
+    .tooltip {
+        display: none !important;
+    }
+
     .about-grid {
         grid-template-columns: 1fr;
         gap: 2.5rem;
