@@ -10,6 +10,21 @@
     --gray: #999999;
 }
 
+body.dark-mode {
+    --black: #ffffff;
+    --white: #1a1a1a;
+    --gray: #b0b0b0;
+}
+
+body.dark-mode .tool-card {
+    background-color: #2a2a2a;
+}
+
+body.dark-mode .contact-section,
+body.dark-mode .footer {
+    background-color: #0a0a0a;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -21,6 +36,7 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
     font-weight: 300;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Mouse cursor glow effect */

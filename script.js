@@ -14,6 +14,32 @@ window.addEventListener('scroll', () => {
     lastScrollTop = scrollTop;
 });
 
+// Dark mode toggle
+const darkModeToggle = document.getElementById('darkModeToggle');
+const sunIcon = darkModeToggle.querySelector('.sun-icon');
+const moonIcon = darkModeToggle.querySelector('.moon-icon');
+
+// Check for saved dark mode preference
+if (localStorage.getItem('darkMode') === 'enabled') {
+    document.body.classList.add('dark-mode');
+    sunIcon.style.display = 'none';
+    moonIcon.style.display = 'block';
+}
+
+darkModeToggle.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    
+    if (document.body.classList.contains('dark-mode')) {
+        localStorage.setItem('darkMode', 'enabled');
+        sunIcon.style.display = 'none';
+        moonIcon.style.display = 'block';
+    } else {
+        localStorage.setItem('darkMode', 'disabled');
+        sunIcon.style.display = 'block';
+        moonIcon.style.display = 'none';
+    }
+});
+
 // Smooth scrolling
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
