@@ -7,13 +7,11 @@
 :root {
     --black: #000000;
     --white: #ffffff;
-    --gray: #999999;
 }
 
 body.dark-mode {
     --black: #ffffff;
     --white: #1a1a1a;
-    --gray: #b0b0b0;
 }
 
 body.dark-mode .floating-navbar {
