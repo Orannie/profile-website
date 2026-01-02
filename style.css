@@ -16,6 +16,14 @@ body.dark-mode {
     --gray: #b0b0b0;
 }
 
+body.dark-mode .floating-navbar {
+    background-color: rgba(42, 42, 42, 0.95);
+}
+
+body.dark-mode .nav-icon {
+    color: #ffffff;
+}
+
 body.dark-mode .tool-card {
     background-color: #2a2a2a;
 }
